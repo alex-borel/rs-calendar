@@ -1,0 +1,120 @@
+.wrapper {
+    position: relative;
+    max-width: 1600px;
+    margin: 10px auto;
+}
+
+.changeView {
+    position: absolute;
+    right: 0px;
+}
+
+.countWeek {
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+table.calendar {
+    border-left: 1px solid #d8dde6;
+    border-right: 1px solid #d8dde6;
+}
+
+button {
+    width: 70px;
+    font-size: 14px !important;
+}
+
+.calendar th {
+    height: 50px;
+    text-align: center;
+    background-color: #465470;
+    color: white;
+    font-weight: bolder !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.calendar td {
+    position: relative;
+    height: 120px;
+    vertical-align: top;
+}
+
+.week td {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.week td:first-child {
+    text-align: center;
+}
+
+td:first-child .eventInfo {
+    margin-left: -15px;
+}
+
+.week td:first-child {
+    font-weight: bolder !important;
+}
+
+.calendar .eventInfo {
+    margin-bottom: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.calendar .eventInfo:hover {
+    background-color: #d6e3f9;
+    cursor: pointer;
+}
+
+.calendar .day {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #465470;
+    font-weight: bolder;
+}
+
+.calendar .eventType {
+    margin-left: 10px;
+}
+
+.top {
+    text-transform: capitalize;
+}
+
+.speakers {
+    text-align: center;
+}
+
+.speaker {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    width: 120px;
+    height: 100px;
+}
+
+.speaker img {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .calendar .eventType {
+        display: none;
+    }
+    .calendar th {
+        text-align: left;
+    }
+    button {
+        width: 52px;
+        font-size: 10px !important;
+    }
+    .countWeek {
+        margin-left: 5px;
+    }
+}

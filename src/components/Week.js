@@ -17,7 +17,7 @@ export default class Week extends React.Component {
         this.state = {
             isModal: false,
             isEvent: null,
-            isWeek: new Date().getWeek(),
+            isWeek: 30,
         };
         this.handleClick = this.handleClick.bind(this);
         this.closeClick = this.closeClick.bind(this);

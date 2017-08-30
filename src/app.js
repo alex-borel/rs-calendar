@@ -10,14 +10,14 @@ const rendering = function (events, trainers) {
 
 class Request {
     getEvents() {
-        fetch('http://128.199.53.150/events')
+        fetch('./../events.json')
         .then(response => response.json())
         .then(events => this.getTrainers(events))
         .catch(err => console.log(err));
     }
 
     getTrainers(events) {
-        fetch('http://128.199.53.150/trainers')
+        fetch('./../trainers.json')
         .then(response => response.json())
         .then(trainers => rendering(events, trainers))
         .catch(err => console.log(err));

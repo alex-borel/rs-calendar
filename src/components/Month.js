@@ -17,8 +17,8 @@ export default class Month extends React.Component {
         this.state = {
             isModal: false,
             isEvent: null,
-            isYear: new Date().getFullYear(),
-            isMonth: new Date().getMonth(),
+            isYear: 2017,
+            isMonth: 4,
         };
         this.handleClick = this.handleClick.bind(this);
         this.closeClick = this.closeClick.bind(this);

@@ -1,3 +1,6 @@
-This application is created using React & Webpack.<br/>
-http://rs-calendar-2017.bitballoon.com/ <br />
-https://github.com/rolling-scopes-school/tasks/blob/2017-Q1/tasks/rs-calendar.md
+It is a web-application, which display information about events and trainers in Rolling Scopes school.  
+The system gives a viewing opportunity month/week. The web-application is realized as SPA.  
+<b>Used technologies:</b> CSS, React, Ajax, Webpack.  
+
+http://rs-calendar-2017.bitballoon.com/
+
